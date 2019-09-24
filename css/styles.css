@@ -1,0 +1,515 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("");
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  color: #161514;
+  background-image: url("../img/bg.png");
+}
+
+header{
+  padding-top: 10px;
+	padding-bottom: 5px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: white;
+  display: flex;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-links{
+  flex: 2;
+  font-size: 120%;
+  text-align: center;
+}
+
+.header-links a{
+  color: #456c39;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+nav .our-impact-page-underline{
+  color: #8fd2ea;
+  border-bottom: 10px solid #8fd2ea;
+}
+
+nav .my-impact-middle-link-padding-underline{
+  color: #f4e492;
+  border-bottom: 10px solid #f4e492;
+}
+
+nav .our-solutions-page-underline{
+  color: #a5d390;
+  border-bottom: 10px solid #a5d390;
+}
+
+.middle-link-padding, .my-impact-middle-link-padding-underline{
+  margin: 0 20%;
+}
+
+.logo{
+  flex: 1;
+}
+
+.logo img{
+  margin-left: 20%;
+  width: 18%;
+  height: auto;
+}
+
+.menu{
+  flex: 1;
+  align-items: center;
+}
+
+.menu-button{
+  align-items: center;
+  float: right;
+  margin-right: 20%;
+  margin-top: 1.5%;
+}
+
+.top-line, .middle-line, .bottom-line{
+  height: 5px;
+  width: 40px;
+  background-color: #456c39;
+}
+
+.middle-line{
+  margin: 6px 0;
+}
+
+.home-bg{
+  width: 55%;
+  height: 100vh;
+  background-color: #456c39;
+  background-repeat: no-repeat;
+  padding:0;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate; */
+}
+
+.intro-text{
+  padding: 1% 8%;
+  margin-top: -30%;
+  max-width: 38%;
+  font-size: 250%;
+  color: white;
+  font-weight: 300;
+  background-color: rgba(23, 22, 21, 0.7);
+}
+
+.intro-line{
+  width: 20%;
+  height: 2vh;
+  background-color: white;
+}
+
+.intro-text-small{
+  font-size: 55%;
+}
+
+.our-impact-intro-text{
+  padding: 1% 8%;
+  margin-top: -40%;
+  max-width: 38%;
+  font-size: 250%;
+  color: white;
+  font-weight: 300;
+  background-color: rgba(23, 22, 21, 0.7);
+}
+
+.page-links{
+  margin-top: -27%;
+  margin-right: 10%;
+  float: right;
+  width: 25%;
+}
+
+.overview-links{
+  text-align: center;
+  color: #456c39;
+}
+
+.our-impact-link, .my-impact-link, .our-solutions-link{
+  text-align: center;
+  margin: 4% 0;
+  padding: 1% 0;
+  background-color: #456c39;
+}
+
+.page-links a{
+  color: #eaf2ed;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4% 0;
+  padding: 1% 0;
+  position: relative;
+  font-size: 220%;
+}
+
+#our-impact-link, #our-solutions-link{
+	margin-top: 15%;
+  margin-bottom: 7%;
+	visibility: hidden;
+}
+
+#my-impact-link{
+  visibility: hidden;
+  margin-bottom: 7%;
+}
+
+.our-impact-line, .my-impact-line, .our-solutions-line, .main-our-impact-line, .main-my-impact-line, .main-our-solutions-line{
+  width: 35%;
+  height: 4vh;
+  margin-top: -3.75%;
+}
+
+.our-impact-line, .main-our-impact-line{
+  background-color: #8fd2ea;
+}
+
+.my-impact-line, .main-my-impact-line{
+  background-color: #f4e492;
+}
+
+.our-solutions-line, .main-our-solutions-line{
+  background-color: #a5d390;
+}
+
+.our-impact-body-text-1 a, .my-impact-body-text-1 a, .our-solutions-body-text-1 a{
+  border: none;
+  color: black;
+  padding: 0 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.our-impact-body-text-1 a{
+  background-color: #8fd2ea;
+}
+
+.my-impact-body-text-1 a{
+  background-color: #f4ebc3;
+}
+
+.our-solutions-body-text-1 a{
+  background-color: #a5d390;
+}
+
+.our-impact-title, .main-our-impact-title, .main-our-impact-title-2{
+  font-weight: 700;
+  font-size: 150%;
+  margin-left: 10%;
+  max-width: 50%;
+}
+
+.main-our-impact-title{
+  font-size: 240%;
+}
+
+.main-our-impact-title{
+  margin-top: 15%;
+}
+
+.main-our-impact-title-2{
+  margin-top: 20%;
+}
+
+.our-impact-body-text-1, .my-impact-body-text-1, .our-solutions-body-text-1{
+  font-size: 140%;
+  margin-left: 10%;
+  max-width: 50%;
+}
+
+.main-our-impact-intro-all, .main-our-impact-body-all, .main-my-impact-intro-all, .main-my-impact-body-all, .main-our-solutions-intro-all, .main-our-solutions-body-all{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 0.5%;
+}
+
+.main-our-impact-body-all, .main-my-impact-body-all, .main-our-solutions-body-all{
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-our-impact-intro-all, .main-our-impact-body-all{
+  background-color: #8fd2ea;
+}
+
+.main-my-impact-intro-all, .main-my-impact-body-all{
+  background-color: #f4ebc3;
+}
+
+.main-our-solutions-intro-all, .main-our-solutions-body-all{
+  background-color: #a5d390;
+}
+
+.main-our-impact-intro, .main-our-impact-what-is-it, .main-our-impact-what-causes-it, .main-my-impact-intro, .main-our-solutions-intro{
+  font-size: 250%;
+  margin-left: 5%;
+  max-width: 25%;
+}
+
+.main-our-impact-intro{
+  max-width: 35%;
+}
+
+.main-my-impact-intro, .main-our-solutions-intro{
+  max-width: 65%;
+}
+
+.main-our-impact-what-is-it, .main-our-impact-what-causes-it{
+  max-width: 65%;
+}
+
+.main-our-impact-body-text-1, .main-my-impact-body-text-1, .main-our-solutions-body-text-1{
+  font-size: 180%;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-our-impact-body-text-1{
+  margin-top: 2.5%;
+}
+
+.our-impact-body-text-1{
+  margin-bottom: 5%;
+}
+
+.my-impact-body-text-1-2{
+  font-size: 130%;
+  max-width: 30%;
+  margin-left: 15%;
+  padding: 1px;
+}
+
+.our-impact-body-text-2{
+  float: right;
+  margin-right: 10%;
+  max-width: 40%;
+  background-color: #eaf2f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.index-our-impact-fact-1{
+  background-color: #8fd2ea;
+  text-align: center;
+  padding: 50px;
+  float: right;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 120%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.index-our-impact-fact-1 img{
+  zoom: 0.6;
+}
+
+.index-our-impact-fact-box{
+  display: flex;
+  float: right;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: -30%;
+  zoom: 0.8;
+  max-width: 45%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+figure{
+  padding: 2em;
+  margin: 0;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption{
+  margin-top: 20%;
+  font-weight: 700;
+}
+
+.world{
+  flex: 2;
+}
+.our-impact-image{
+  margin-left: 10%;
+}
+
+.main-our-impact-image{
+  margin-left: 55%;
+  margin-top: -37%;
+}
+
+.main-our-impact-air-pol{
+  margin-left: 65%;
+  margin-top: -10%;
+}
+
+.main-our-impact-air-pol img{
+  width: 25%;
+}
+
+.main-my-impact-car{
+  margin-left: 65%;
+  margin-top: -5%;
+}
+
+.main-my-impact-car img{
+  width: 30%;
+}
+
+.main-our-impact-image img, .our-impact-image img, .main-our-impact-air-pol img, .main-my-impact-car img, .index-our-impact-fact-1 img{
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.main-our-impact-image img{
+  width: 80%;
+}
+.our-impact-image img {
+  width: 20%;
+}
+
+.our-impact-image-bg{
+  background-color: #8fd2ea;
+  width: 25%;
+  height: 35vh;
+  margin-left: 15%;
+  margin-top: -15%;
+  margin-bottom: 15%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.my-impact-area1, .my-impact-area2, .our-solutions-area1, .our-solutions-area2{
+  display: flex;
+  margin-top: 5%;
+  padding: 2em 5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-impact-area1, .our-solutions-area1{
+  margin-left: 30%;
+  max-width: 60%;
+  background-color: #f4ebc3;
+  font-weight: 700;
+}
+
+.my-impact-area2, .our-solutions-area2{
+  margin-left: 20%;
+  max-width: 60%;
+  background-color: #f4ebc3;
+  font-weight: 700;
+}
+
+.my-impact-area1-img, .my-impact-area2-img{
+  flex: 1;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.my-impact-area1-img img, .my-impact-area2-img img{
+  width: 60%;
+  height: auto;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+
+.my-impact-area1-text, .my-impact-area2-text{
+  flex: 2;
+  font-size: 120%;
+}
+
+.our-solutions-area1, .our-solutions-area2{
+  background-color: #a5d390;
+}
+
+.our-impact-external-link, .my-impact-external-link, .our-solutions-external-link{
+  color: #456c39;
+  text-decoration: none;
+}
+
+.external-link:hover{
+  color: white;
+  background-color: #57afc5;
+}
+
+.our-impact-link:hover, .my-impact-link:hover, .our-solutions-link:hover{
+	background-color: #3e8e41;
+}
+
+.our-impact-body-text-1 a:hover, .our-impact-external-link:hover{
+  background-color: #57afc5;
+}
+
+.my-impact-body-text-1 a:hover, .my-impact-external-link:hover{
+  background-color: #d8c573;
+}
+
+.our-solutions-body-text-1 a:hover, .our-solutions-external-link:hover{
+  background-color: #80c45c;
+}
+
+.our-impact-hov:hover{
+  color: #8fd2ea;
+  border-bottom: 10px solid #8fd2ea;
+}
+
+.middle-link-padding:hover{
+  color: #f4ebc3;
+  border-bottom: 10px solid #f4ebc3;
+}
+
+.our-solutions-hov:hover{
+  color: #a5d390;
+  border-bottom: 10px solid #a5d390;
+}
+
+.footer{
+  width:100%;
+  height:60px;
+  background: green;
+  width: 100%;
+  height: 20vh;
+  background-color: #456c39;
+  margin-top: 10%;
+}
